@@ -1,0 +1,15 @@
+/* Global style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Verdana, Geneva,
+    Tahoma, sans-serif;
+  min-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1075px;
+  width: 100%;
+}

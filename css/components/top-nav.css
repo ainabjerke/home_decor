@@ -1,0 +1,109 @@
+/***************** nav style ***************/
+
+.logo img {
+  height: 3.9em;
+  margin: 0px 0px -85px -8px;
+  max-width: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+/******************** nav style *******************/
+
+.topnav {
+  align-items: center;
+  box-shadow: 0 1px 0 0 #d3d0c5;
+  display: flex;
+  justify-content: end;
+  margin: 0px 5px 0px 5px;
+  overflow: hidden;
+  padding: 10px 0px 11px 0px;
+}
+
+.topnav a {
+  color: #707070;
+  display: block;
+  font-size: 14px;
+  padding: 14px 16px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+}
+
+.topnav .icon {
+  box-shadow: -2px 0 0 -1px #d3d0c5;
+  display: none;
+}
+
+.style-nav {
+  float: left;
+  overflow: hidden;
+}
+
+.style-nav:hover {
+  border-bottom: #86aa9c solid;
+  border-bottom-width: 3px;
+}
+
+/*************** tablet nav style ******************/
+
+@media screen and (max-width: 980px) {
+  .topnav a:not(:first-child),
+  .style-nav {
+    display: none;
+  }
+
+  .topnav a.icon {
+    display: block;
+    float: right;
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  .logo {
+    height: 0px;
+  }
+
+  .logo img {
+    margin: 10px 0px -92px 23px;
+    width: 8em;
+  }
+
+  .responsive .icon {
+    font-size: 24px;
+  }
+
+  .topnav.responsive {
+    display: block;
+    position: relative;
+  }
+
+  .topnav.responsive ul {
+    margin-top: 110px;
+    padding-left: 0px;
+  }
+
+  .responsive .style-nav {
+    display: block;
+    float: none;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .topnav {
+    display: block;
+    margin: 0px 20px 0px 20px;
+  }
+}
+/**************************************************/
+/*************** mobile nav style ******************/
+/**************************************************/
+
+@media screen and (max-width: 600px) {
+  .logo img {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,61 @@
+.home-page-main-img {
+  background-image: url("/images/homepage_jumbotron_img.jpeg");
+}
+
+.product-page-main-img {
+  background-image: url("/images/product_page_jumbotron_img.jpeg");
+}
+
+.contact-page-main-img {
+  background-image: url("/images/contact_page_jumbotron_img.jpeg");
+}
+
+.home-page-main-img,
+.product-page-main-img,
+.contact-page-main-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 421px;
+  margin-top: -150px;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.home-page-text,
+.product-page-text,
+.contact-page-text {
+  left: 527px;
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+  text-align: left;
+  top: -193px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #707070;
+}
+
+@media screen and (max-width: 850px) {
+  .home-page-text,
+  .product-page-text,
+  .contact-page-text {
+    left: 474px;
+    margin-top: -13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-page-text,
+  .product-page-text,
+  .contact-page-text {
+    left: 57%;
+    margin-top: -8px;
+  }
+
+  .home-page-main-img,
+  .product-page-main-img,
+  .contact-page-main-img {
+    margin-top: -124px;
+  }
+}

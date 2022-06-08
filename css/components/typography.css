@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* .home-page-text,
+.product-page-text,
+.contact-page-text {
+  font-family: "Roboto", sans-serif;
+} */
+
+.home-page-text h2,
+.product-page-text h2,
+.contact-page-text h2 {
+  font-size: 18px;
+}
+
+.home-page-text h1,
+.product-page-text h1,
+.contact-page-text h1 {
+  font-size: 24px;
+}
+
+.home-page-text h3,
+.product-page-text h3,
+.contact-page-text h3 {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 650px) {
+  .home-page-text h2,
+  .product-page-text h2,
+  .contact-page-text h2 {
+    font-size: 14px;
+  }
+
+  .home-page-text h1,
+  .product-page-text h1,
+  .contact-page-text h1 {
+    font-size: 18px;
+  }
+
+  .home-page-text h3,
+  .product-page-text h3,
+  .contact-page-text h3 {
+    font-size: 16px;
+  }
+}
