@@ -172,8 +172,8 @@
     margin-left: 0px;
   }
 }
-
-/* @media screen and (max-width: 950px) {
+/* 
+@media screen and (max-width: 950px) {
   .right-footer-container-info {
     margin-top: 100px;
   }
@@ -207,8 +207,8 @@
 
   .right-footer-nav-style ul {
     margin-top: 300px;
-  }
-} */
+  } */
+
 /********************************************************************************************/
 /*************************** Responsive mobile footer style  *********************************/
 /********************************************************************************************/

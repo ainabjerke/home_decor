@@ -1,0 +1,356 @@
+.contact-us__heading h2 {
+  color: gray;
+  margin-top: -249px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.flex-container-item__contact-page {
+  margin-top: 1px;
+}
+
+.flex-container-item__contact-heading h2 {
+  color: gray;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .flex-container-item__contact-page {
+    margin-top: 288px;
+    margin-bottom: -270px;
+  }
+}
+
+.contact-bg-img {
+  background-image: url("/images/contact_us_img04resize.jpeg");
+}
+
+.contact-bg-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 328px;
+  /* margin-top: 34px; */
+  opacity: 0.5;
+  width: 100%;
+}
+
+.contact-make-a-call {
+  text-align: center;
+  margin-top: -238px;
+  z-index: 2;
+  position: relative;
+}
+
+.contact-make-a-call__heading {
+  color: black;
+}
+
+.contact-page__how-it-works {
+  text-align: center;
+  color: black;
+  margin-top: 150px;
+  font-size: 22px;
+  margin-bottom: -100px;
+  background-color: #e1dfdb;
+  padding: 24px;
+}
+
+.flex-container__contact,
+.flex-container__our-designer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /* margin-top: -240px; */
+  /* background-color: #e1dfdb; */
+  /* margin-top: 138px; */
+}
+
+.flex-container__our-designer {
+  background-color: #c7d1ce;
+}
+
+.flex-container__contact {
+  margin-top: 138px;
+  background-color: #e1dfdb;
+}
+
+.flex-container__our-designer {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* .flex-container__about {
+  background-color: #e1dfdb;
+  margin-top: 138px;
+} */
+
+.flex-container-item__contact {
+  flex: 50%;
+  margin-top: -223px;
+  padding-left: 1px;
+}
+
+.flex-container-item__contact img {
+  width: 100%;
+}
+
+.flex-container-item__contact h2 {
+  font-size: 30px;
+  margin-top: -104px;
+  color: #ffffff;
+}
+
+.flex-container-item__contact p {
+  font-size: 20px;
+}
+
+.flex-item__contact-style i {
+  margin-top: 24px;
+  font-size: 22px;
+  color: #86aa9c;
+}
+
+.flex-item__contact-style {
+  width: 22%;
+  border-radius: 50%;
+  height: 70px;
+  display: block;
+  background-color: #e1dfdb;
+  margin-left: 118px;
+}
+
+.flex-item__our-designer-style img {
+  width: 22%;
+  border-radius: 50%;
+  height: 70px;
+  display: block;
+  margin-left: 185px;
+}
+
+.flex-item__our-designer-text {
+  padding: 72px;
+}
+/* .flex-container__about img {
+  width: 52%;
+  border-radius: 50%;
+  height: 118px;
+  display: block;
+  margin-left: 73px;
+  margin-top: 59px;
+  margin-bottom: 30px;
+} */
+
+/* .sustainability__bg-img {
+  width: 52%;
+  height: 36px;
+  display: block;
+  margin-top: 59px;
+  margin-top: 10px;
+}
+
+.flex-container__sustainability i {
+  margin-left: 10px;
+  font-size: 63px;
+  margin-top: 30px;
+} */
+
+.flex-item__contact {
+  /* padding: 18px; */
+  padding: 5px;
+  /* flex: 50%;
+  text-align: center;
+  background-color: #ffffff;
+  opacity: 0.7;
+  color: #707070;
+  margin: 11px; */
+}
+
+.flex-item__contact,
+.flex-item__our-designer-style {
+  flex: 50%;
+  text-align: center;
+  background-color: #ffffff;
+  opacity: 0.7;
+  color: #707070;
+  margin: 11px;
+}
+
+.flex-item__contact h2 {
+  font-size: 20px;
+  color: #707070;
+}
+
+@media screen and (max-width: 950px) {
+  .contact-bg-img {
+    margin-top: 244px;
+  }
+
+  .flex-container__contact,
+  .flex-container__our-designer {
+    flex-direction: column;
+    position: relative;
+    /* margin-top: -377px; */
+    /* margin-top: -175px; */
+  }
+
+  .flex-container__contact {
+    margin-top: -175px;
+  }
+
+  .flex-container__our-designer {
+    margin-top: 20px;
+    margin-bottom: 59px;
+  }
+
+  .flex-item__contact-style {
+    width: 12%;
+    margin-left: 44%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .flex-container__contact {
+    margin-top: -231px;
+  }
+  .flex-item__contact-style {
+    width: 16%;
+    margin-left: 41%;
+  }
+}
+
+/* .flex-container__sustainability {
+    background-color: #6c9ead;
+    margin-top: 10px;
+  }
+
+  .flex-container-itemr__abou {
+    margin-top: 100px;
+    margin-bottom: -44px;
+  }
+
+  .flex-container__about img,
+  .flex-container__sustainability img {
+    width: 18%;
+    margin-left: 41%;
+  }
+
+  .flex-container__about {
+    margin-top: -276px;
+  }
+
+  .flex-item__about {
+    margin-bottom: 10px;
+  }
+
+  .flex-item__sustainability {
+    margin-bottom: 16px;
+    margin-top: 10px;
+  }
+
+  .sustainability__bg-img {
+    display: none;
+  } */
+
+@media screen and (max-width: 950px) {
+  .flex-container__about {
+    margin-top: -338px;
+  }
+
+  .flex-item__our-designer-style img {
+    width: 14%;
+    /* border-radius: 50%;
+    height: 70px;
+    display: block; */
+    margin-left: 44%;
+  }
+}
+
+/* .flex-item__our-designer-style img {
+  width: 22%;
+  border-radius: 50%;
+  height: 70px;
+  display: block;
+} */
+
+/* @media screen and (max-width: 600px) {
+  .flex-container__about img {
+    width: 22%;
+  }
+} */
+
+/* .flex-container__our-designer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: -240px;
+}
+
+.flex-container__our-designert {
+  background-color: #c7d1ce;
+  margin-top: 138px;
+}
+
+.flex-item__our-designer{
+  flex: 50%;
+  margin-top: -223px;
+  padding-left: 1px;
+}
+
+.flex-item__our-designer img {
+  width: 100%;
+}
+
+.flex-item__our-designer h2 {
+  font-size: 30px;
+  margin-top: -104px;
+  color: #ffffff;
+}
+
+.flex-item__our-designer p {
+  font-size: 20px;
+}
+
+
+
+.flex-item__our-designer-style {
+  width: 22%;
+  border-radius: 50%;
+  height: 70px;
+  display: block;
+  background-color: gray;
+  margin-left: 118px;
+} */
+/* 
+
+
+.flex-item__contact {
+
+  padding: 5px;
+  flex: 50%;
+  text-align: center;
+  background-color: #ffffff;
+  opacity: 0.7;
+  color: #707070;
+  margin: 11px;
+}
+
+.flex-item__contact h2 {
+  font-size: 20px;
+  color: #707070;
+}
+
+@media screen and (max-width: 1046px) {
+  .flex-container__about {
+    flex-direction: column;
+    position: relative;
+    margin-top: -377px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .flex-container__about {
+    margin-top: -338px;
+  }
+} */
