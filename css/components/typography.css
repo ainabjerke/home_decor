@@ -8,7 +8,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
 }
 
 /* .home-page-text,
@@ -21,18 +22,24 @@ h6 {
 .product-page-text h2,
 .contact-page-text h2 {
   font-size: 18px;
+  font-family: "Playfair Display SC", serif;
+  font-weight: normal;
 }
 
 .home-page-text h1,
 .product-page-text h1,
 .contact-page-text h1 {
   font-size: 24px;
+  font-family: "Playfair Display SC", serif;
+  font-weight: normal;
 }
 
 .home-page-text h3,
 .product-page-text h3,
 .contact-page-text h3 {
   font-size: 16px;
+  font-family: "Playfair Display SC", serif;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 650px) {
