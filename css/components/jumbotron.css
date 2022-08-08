@@ -22,6 +22,15 @@
   width: 100%;
 }
 
+.product-page-text {
+  top: -178px;
+}
+
+.home-page-text,
+.contact-page-text {
+  top: -193px;
+}
+
 .home-page-text,
 .product-page-text,
 .contact-page-text {
@@ -30,7 +39,7 @@
   padding: 30px;
   position: relative;
   text-align: left;
-  top: -193px;
+  /* top: -193px; */
   transform: translate(-50%, -50%);
   z-index: 2;
   color: #707070;

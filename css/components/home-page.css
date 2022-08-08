@@ -160,6 +160,12 @@ p span {
   font-size: 12px;
 }
 
+@media screen and (max-width: 550px) {
+  .icon-bar__text {
+    display: none;
+  }
+}
+
 /* home page newsletter */
 .newsletter-bg-img {
   background-image: url("/images/news_letter_img_v1.jpeg");
