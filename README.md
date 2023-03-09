@@ -15,7 +15,7 @@ Design 2 course assignment
 
 ## Description
 
-This project was course assignment through my last year of studies. It is an home decor website featuring home decor product for women.
+This project was a course assignment through my last year of studies showing my design skills. It is an home decor website featuring home decor product for women.
 
 Some features:
 - Flexbox
@@ -35,7 +35,7 @@ Some features:
 
 URL: https://jolly-wisp-8ff9cf.netlify.app/
 
-You can now play around on the website. Viewing products 
+You can now play around on the website. Viewing products. 
 
 
 ### How to start the project locally
