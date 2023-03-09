@@ -1,7 +1,7 @@
-# Home decor is an website featuring decore product for wommen
+# Home decor is an website featuring decore product for women
 Design 2 course assignment
 
-![image](https://jolly-wisp-8ff9cf.netlify.app/)
+![image](https://i.ibb.co/ZHYq6Qm/home-decor-webpage-image.jpg)
 
 
 
